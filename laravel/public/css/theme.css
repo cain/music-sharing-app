@@ -1,0 +1,315 @@
+body {
+    background-color: #efefef;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.top-nav {
+    height: 45px;
+    background-color: white;
+    
+}
+
+.genre-nav {
+    height:30px;
+    background-color: #453fa5;
+
+    
+}
+
+.sub-genre-nav {
+    height:30px;
+    background-color: #f4f4f4;
+        border: 1px;
+    border-color: #e5e5e5;
+    border-style: solid;
+    border-left: 1px;
+    border-right: 1px;
+    
+}
+
+
+
+.boundary {
+    width:850px;
+    margin:auto;
+    height:100%;
+}
+
+.logo {
+    height:100%;
+    padding-top:11px;
+    width:130px;
+    display: inline-block;
+}
+
+.login {
+    display: inline-block;
+    width:;
+    float:right;
+    padding-top:15px;
+}
+
+.nav-links {
+    padding-top:5px;
+}
+
+.font-white {
+    color:white;
+}
+
+.font-white a {
+    color:white;
+    
+}
+
+.tracks {
+    margin-top:10px;
+}
+
+.item {
+    height:33px;
+    background-color:white;
+    
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 1px solid #d7d7d7;
+    border-bottom: none;
+}
+
+.votes {
+    width:50px;
+    height:100%;
+        display:inline-block;
+    background-color: #f0f0f0;
+}
+
+.votes a:active {
+    background: rgba(255, 165, 0, 0.7);
+}
+
+.blue {
+    background-color:#2E4358;
+    
+    
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	border-bottom: 5px solid #3C3C3C;
+    display: inline;
+}
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-top: 5px solid #3C3C3C;
+}
+
+.vote {
+    margin-left:5px;
+    margin-top:7px;
+    position: absolute;
+}
+
+.vote-number {
+    width:30px;
+    margin-left:20px;
+    padding-top:4px;
+}
+
+.song-name {
+    display:inline-block;
+    width:100;
+
+    
+    margin-left:5px;
+}
+
+.description {
+    height:30px;
+    width: ;
+    display: inline-block;
+}
+
+.desc {
+    
+    height:0px;
+        display:inline;
+    max-width: 300px;
+    margin-left:7px;
+
+}
+
+.song-name-holder {
+    display: inline;
+    height:50px;
+    width:100%;
+}
+
+.song-title {
+
+    padding-top:4px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:8px;
+    margin-bottom: 0px;
+    
+        -webkit-border-radius: 0px 0px 0px 0px;
+    border: 1px solid #d7d7d7;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+
+
+}
+
+.song-holder {
+        width:px;
+    height:100%;
+        display:inline-block;
+    
+}
+
+.white-background {
+    background-color: white;
+}
+
+.desc-text {
+    display: inline;
+    margin-left:5px;
+}
+
+.logo-desc {
+    display: inline;
+    font-size: 10px;
+}
+
+.item-desc {
+    display:inline;
+    float:right;
+    margin-right:5px;
+    font-size:11px;
+    height:32px;
+    
+}
+
+.active {
+
+}
+
+.arrow_box {
+	position: relative;
+
+}
+.arrow_box:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 5px;
+
+}
+
+
+.song-style {
+    display:inline;
+    
+}
+.song-style a:hover {
+    
+    text-decoration: none;
+    color: #939393;
+}
+
+.song-style a {
+    
+    color: #2c5381;
+}
+.float-right {
+    float:right;
+}
+
+.text-muted {
+    margin-bottom:50px;
+}
+
+
+.arrow_box_green {
+	position: relative;
+}
+.arrow_box_green:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #449D44;
+	border-width: 6px;
+	margin-top: -6px;
+}
+.footer-boundary {
+        padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    color: #99979c;
+
+    background-color: #212121;
+}
+
+.footer-ul {
+
+    list-style: none;
+    padding-left:0px;
+    color: white;
+}
+
+.footer-ul a {
+    color:white;
+}
+
+.footer-ul a:hover {
+    text-decoration: none;
+}
+
+.footer-ul li {
+display: inline-block;
+    margin-right:40px;
+}
+
+.nav-button {
+    display:inline; margin-left:10px; padding:5px;
+    margin-top:7px;
+}
+
+.pagination {
+
+    
+    border-radius: 0px; !important
+}
+
+.font-black a {
+    color:black;
+}
+
+.menu { text-align:center; }
+.menu ul { display:inline-table;}
+.menu ul li {display:inline;}
+            .menu ul li a {
+                color:black;
+            }
