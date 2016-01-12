@@ -26,26 +26,36 @@
 <body id="app-layout">
     <div class="top-nav">
     <div class="boundary">
-    <div class="logo"><img src="/img/logo.png"></div> 
-        
-       <p class="logo-desc">Discover The Best New Music!</p>
-        
-        <!--<div class="login"><a href="#"><i class="fa fa-user"></i> SIGN UP</a> or <a href="#"><i class="fa fa-user"></i> LOGIN</a> </div> -->
-        
-        <a href="/login"><button class="btn btn-danger nav-button float-right" type="button" style=""><i class="fa fa-user"></i> Login</button></a>
-        <a href="/register"><button class="btn btn-warning nav-button float-right" type="button" style=""><i class="fa fa-user"></i> Register</button></a>
-        <a href="/login"><button class="btn btn-success arrow_box_green nav-button float-right" type="button" style=""><i class="fa fa-arrow-up"></i> Share Music</button></a>
+    <div class="logo"><img src="img/logo.png" style="margin-bottom: 8px;"></div> 
+      <div style="display:inline; margin-top:5px;">  
+       <p class="logo-desc">Discover The Best New EDM Songs</p>
+        </div>  
+
+          <div class="searchbar " style="">
+    <div class="input-group">
+      <input type="text " class="form-control nav-height" placeholder="Search for, users, categories, tracks">
+      <span class="input-group-btn ">
+        <button class="btn btn-default nav-height" style="padding-top:3px;" type="button"><i class="fa fa-search"></i></button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+        <button class="btn btn-success nav-button float-right " type="button" style=""> Create Account</button>
+        <button class="btn btn-default nav-button float-right " type="button" style=""> Sign in</button>
+        <a href="#" class="float-right share">Share Music</a>
     </div>
     </div>
     <div class="genre-nav">
     <div class="boundary">
      
         <div class="nav-links font-white">
-            <p><a href="/" class="focus">ALL</a> - <a href="#">ELECTRONIC</a> - <a href="#">ROCK / METAL</a> - <a href="#">R&B</a> - <a href="#">JAZZ</a> - <a href="#">FOLK</a> - <a href="#">COUNTRY</a> - <a href="#">RAP</a> - <a href="#">REGGAE</a> </p>
+            <!--<p><a href="#" class="focus">ALL</a> - <a href="#">INDIE</a> - <a href="#">ROCK</a> - <a href="#">ALTERNATE</a> - <a href="#">POP</a> - <a href="#">RAP</a> - <a href="#">ELECTRO</a> - <a href="#">EDM</a> - <a href="#">TRAP</a> - <a href="#">HIP/HOP</a> - <a href="#">JAZZ</a> - <a href="#">OLD</a></p>-->
+            <p><a href="#">ALL</a> - <a href="#">HOUSE</a> - <a href="#">TECHNO</a> - <a href="#">TRANCE</a> - <a href="#">DUBSTEP</a> - <a href="#">CHILL</a> - <a href="#">D&B</a> - <a href="#">TRAP</a> - <a href="#">HARDSTYLE</a> - <a href="#">TRAP</a></p>
         </div>
      
     </div>
     </div>
+    
+    
     @yield('subnav')
     <br>
     @yield('content')

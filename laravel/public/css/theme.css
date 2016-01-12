@@ -29,14 +29,14 @@ body {
 
 
 .boundary {
-    width:850px;
+    width:920px;
     margin:auto;
     height:100%;
 }
 
 .logo {
     height:100%;
-    padding-top:11px;
+    padding-top:5px;
     width:130px;
     display: inline-block;
 }
@@ -112,8 +112,8 @@ border: 1px solid #d7d7d7;
 }
 
 .vote {
-    margin-left:5px;
-    margin-top:7px;
+
+    margin-top:4px;
     position: absolute;
 }
 
@@ -187,7 +187,8 @@ border: 1px solid #d7d7d7;
 
 .logo-desc {
     display: inline;
-    font-size: 10px;
+    font-size: 12px;
+    
 }
 
 .item-desc {
@@ -219,7 +220,7 @@ border: 1px solid #d7d7d7;
 	border-color: rgba(255, 255, 255, 0);
 	border-bottom-color: #ffffff;
 	border-width: 5px;
-
+	margin-left: -420px;
 }
 
 
@@ -293,7 +294,8 @@ display: inline-block;
 }
 
 .nav-button {
-    display:inline; margin-left:10px; padding:5px;
+    display:inline; margin-left:10px; 
+    padding:4px 10px;
     margin-top:7px;
 }
 
@@ -313,3 +315,112 @@ display: inline-block;
             .menu ul li a {
                 color:black;
             }
+
+.track-list {
+
+    list-style: none;
+}
+
+.track-ul {
+        padding:0px;
+    margin:0px;
+    list-style: none;
+    
+}
+.track-ul li {
+    display: inline;
+
+}
+
+.track-vote-numbers {
+    margin-left:15px;
+    display: inline;
+    width:40px;
+    position: absolute;
+    
+}
+
+.track-type {
+    margin-left:55px;
+}
+
+.track-tag {
+    color:purple;
+}
+
+.track-desc {
+    float:right;
+}
+
+.track-ul a {
+    color:black;
+    text-decoration: none;
+
+}
+.searchbar {
+    position: absolute;
+
+    display: inline-table;
+    margin-top: 7px;
+
+    margin-left:7px;
+    width:335px
+}
+
+.nav-height {
+    height:30px;
+}
+
+.share {
+    padding:6px 3px;
+    margin-top:6px;
+}
+
+.share:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.trans {
+    background-color:transparent;
+    color:black;
+}
+
+.purple-border {
+    border-color: #453fa5
+}
+
+.purple-color {
+    color: #453fa5;
+}
+
+.btn-register {
+    background-color: #453FA5;
+    color:white;
+}
+
+.query-button {
+   padding:1px 10px;
+    margin-top:-1px;
+    font-size:12px;
+}
+
+
+
+#fullbleed-bg {
+        width: 100%;
+    min-width: 1000px;
+    height: 429px;
+    position: absolute;
+    top: 50px;
+    background: url(/img/bg.png) top center no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: block;
+    z-index: -2;
+    margin-top:55px;
+}
+
+.pagination-button {
+    text-align: center;
+}
